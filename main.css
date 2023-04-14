@@ -1,0 +1,21 @@
+.favourite {
+  display: flex;
+  background-color: aqua;
+  padding: 0 auto;
+}
+
+h3 {
+  font-size: 25px;
+  color: blue;
+  background-color: yellow;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  color: blue;
+}
+
+.body {
+  background-color: lightgrey;
+  padding: 1rem 1rem;
+}
