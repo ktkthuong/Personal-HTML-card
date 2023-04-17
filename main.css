@@ -1,21 +1,41 @@
-.favourite {
-  display: flex;
-  background-color: aqua;
-  padding: 0 auto;
+body {
+  background-color: #c36e6e;
+  margin-top: 10%;
 }
-
-h3 {
-  font-size: 25px;
-  color: blue;
-  background-color: yellow;
+.card {
+  background-color: white;
+  height: auto;
+  width: 20rem;
+  max-width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.card-profile-image {
+  max-height: 150%;
+  max-width: 100%;
+  text-align: center;
+  padding: 16px;
+}
+.card-profile-image > img {
+  position: relative;
+  height: 150px;
+  max-height: 100%;
+  max-width: 100%;
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: 0px 25px 2rem rgba(0, 0, 0, 0.15);
+}
+.content {
   text-align: center;
 }
-p {
-  font-size: 18px;
-  color: blue;
+.content > text {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
-.body {
-  background-color: lightgrey;
-  padding: 1rem 1rem;
+.text {
+  text-align: justify;
+  padding: 10px 10px;
 }
