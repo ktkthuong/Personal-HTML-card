@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #c36e6e;
   margin-top: 10%;
+  background: linear-gradient(to left, #132647, #c36e6e);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .card {
-  background-color: white;
+  background: linear-gradient(to top, white, #c36e6e, rgb(0, 170, 255));
   height: auto;
-  width: 20rem;
+  width: 18rem;
   max-width: 100%;
   background-color: #fff;
   margin: 0 auto;
@@ -38,4 +45,31 @@ body {
 .text {
   text-align: justify;
   padding: 10px 10px;
+}
+
+h1 {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+.awe {
+  font-size: 55px;
+  padding: 0% 17%;
+  margin: 0%;
+  background-image: linear-gradient(to right, #4400ff, #ff699e);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: hsla(315, 100%, 50%, 0.842);
+}
+.pro {
+  font-size: 95px;
+  color: #fff;
+  word-break: break-all;
+  display: inline-block;
+  padding: 0% 17%;
+  margin: 0%;
+}
+.fullbody {
+  display: flex;
 }
