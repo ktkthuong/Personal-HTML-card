@@ -3,14 +3,14 @@
 }
 
 body {
-  background-color: #c36e6e;
+  /* background-color: #c36e6e; */
   margin-top: 10%;
-  background: linear-gradient(to left, #132647, #c36e6e);
+  background: linear-gradient(to right, #c36e6e, #132647);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .card {
-  background: linear-gradient(to top, white, #c36e6e, rgb(0, 170, 255));
+  background: linear-gradient(150deg, rgb(0, 200, 255), #c36e6e, white 37%);
   height: auto;
   width: 18rem;
   max-width: 100%;
@@ -55,7 +55,7 @@ h1 {
   font-size: 55px;
   padding: 0% 17%;
   margin: 0%;
-  background-image: linear-gradient(to right, #4400ff, #ff699e);
+  background-image: linear-gradient(to right, #4400ff 17%, #ff699e 25%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
