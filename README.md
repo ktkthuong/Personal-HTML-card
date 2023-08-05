@@ -2,6 +2,6 @@
 Personal-HTML-card
 ├─ css
 │  └─ main.css
-├─ images
+├─ image
 │  ├─ huong.jpg
 └─ file.html
